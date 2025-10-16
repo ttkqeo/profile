@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.body{
+    box-shadow: 0 0 80px #B6CFE4;
+}
+.banner-title{
+    background-color:#393027;
+    color: white;
+    padding: 20px;
+    width: 960px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.banner-img{
+    border-bottom: 2px solid black;
+    display: block;
+}
+.section{
+  display: flex;
+  width: 960px;
+  background-color: #9BAD50;
+  padding: 10px;
+}
+.content1{
+    width: 33%;
+    padding: 20px;
+}
+.about-me{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+.about-text{
+    font-size: 17px;
+    line-height: 1.5;
+    color: black;
+}
+.content2{
+    width: 33%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.img{
+    width: 270px;
+    height: 260px;
+    border-radius: 15px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+.content3{
+    width: 33%;
+    padding: 20px;
+}
+.list-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+.likes-list,
+.dislikes-list {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.main-content{
+    width: 960px;
+    height: 2350px;
+    background-color: #B6CFE4;
+    color: #393027;
+    text-align: center;
+    border: 2px solid black;
+}
+.img-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+.photo-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.photo-card{
+    width: 280px;
+    height: 340px;
+    border: 3px solid #393027;
+    object-fit: cover;
+    background: white;
+    margin: 10px;
+}
+.photo-card1{
+    width: 433px;
+    height: 333px;
+    border: 3px solid #393027;
+    object-fit: cover;
+    background: white;
+    margin: 10px;
+}
+.text{
+    color: #393027;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer{
+    background-color:#393027;
+    color: white;
+    padding: 40px;
+    width: 960px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.contact {
+    gap: 10px;
+    align-items: center; 
+    margin-top: 10px;
+}
+.img-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    padding: 5px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
